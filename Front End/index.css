@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+}
+/* Estilizando tag do html */
+header{
+    background-color:rgb(55, 17, 224);
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+nav{
+    width: 80%;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style-type: none;
+    color: white;
+    font-size: 24px;
+}
+/* Estilizar por id*/
+#simulacao{
+    background-color: rgb(43, 224, 209)
+}
+#resultado{
+    background-color: rgb(87, 233, 119)
+}
+
+/* Estilizar por classe */
