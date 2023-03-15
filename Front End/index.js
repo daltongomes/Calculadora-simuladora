@@ -40,7 +40,7 @@ function getDados(){
        totalInvestidoElemento.innerText = resultadoTotalInvestido.toLocaleString("pt-br",{style: "currency", currency: "BRL"});
        var totalJurosElemento = document.getElementById("total-juros");
        totalJurosElemento.innerText = resultadoTotalJuros.toLocaleString("pt-br",{style: "currency", currency: "BRL"});
-    //    alert(resultado); 
+       alert(resultado); 
 }
 
 
